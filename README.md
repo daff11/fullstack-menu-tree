@@ -41,7 +41,7 @@ cd fullstack-menu-tree
 Sudah include di git. Bisa dicek di folder backend/.env dan frontend/.env
 
 ### Docker Setup
-Sebelum menjalankan perintah di bawah, pastikan Docker dan Docker Compose sudah terinstal
+Note: Sebelum menjalankan perintah di bawah, pastikan Docker dan Docker Compose sudah terinstal
 ```bash
 docker-compose up --build
 ```
