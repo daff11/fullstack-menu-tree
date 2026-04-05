@@ -65,11 +65,12 @@ Jika ingin jalankan tanpa docker:
 - Swagger Backend: http://localhost:3000/api-docs
 
 ## Screenshots
-<p align="center">
-  <img src="screenshots/desktop.png" width="30%">
-  <img src="screenshots/mobile-1.png" width="30%">
-  <img src="screenshots/mobile-2.png" width="30%">
-</p>
+### Desktop
+![desktop](screenshots/desktop.png)
+### Mobile 1
+![mobile](screenshots/mobile-1.png)
+### Mobile 2
+![mobile](screenshots/mobile-2.png)
 
 ## Technologies
 - Backend: NestJS, Prisma, PostgreSQL
