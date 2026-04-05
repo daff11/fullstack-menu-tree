@@ -1,0 +1,75 @@
+POST /menus
+{
+  "name": "Dashboard"
+}
+response
+{
+    "id": 1,
+    "name": "Dashboard",
+    "parentId": null,
+    "order": 0,
+    "createdAt": "2026-04-02T03:00:41.241Z",
+    "updatedAt": "2026-04-02T03:00:41.241Z"
+}
+
+POST /menus
+{
+  "name": "User Management",
+  "parentId": 1
+}
+response
+{
+    "id": 2,
+    "name": "User Management",
+    "parentId": 1,
+    "order": 0,
+    "createdAt": "2026-04-02T03:02:36.692Z",
+    "updatedAt": "2026-04-02T03:02:36.692Z"
+}
+
+GET /menus
+[
+    {
+        "id": 1,
+        "name": "Dashboard",
+        "parentId": null,
+        "order": 0,
+        "createdAt": "2026-04-02T03:00:41.241Z",
+        "updatedAt": "2026-04-02T03:00:41.241Z",
+        "children": [
+            {
+                "id": 2,
+                "name": "User Management",
+                "parentId": 1,
+                "order": 0,
+                "createdAt": "2026-04-02T03:02:36.692Z",
+                "updatedAt": "2026-04-02T03:02:36.692Z",
+                "children": []
+            }
+        ]
+    }
+]
+
+PUT /menus
+{
+  "name": "Users"
+}
+response
+{
+    "id": 2,
+    "name": "Users",
+    "parentId": 1,
+    "order": 0,
+    "createdAt": "2026-04-02T03:02:36.692Z",
+    "updatedAt": "2026-04-02T03:05:35.965Z"
+}
+
+DELETE /menus
+{
+    "id": 2,
+    "name": "Users",
+    "parentId": 1,
+    "order": 0,
+    "createdAt": "2026-04-02T03:02:36.692Z",
+    "updatedAt": "2026-04-02T03:05:35.965Z"
+}

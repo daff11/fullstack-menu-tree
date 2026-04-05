@@ -1,0 +1,30 @@
+src/
+├── main.ts
+├── app.module.ts
+│
+├── prisma/
+│   ├── prisma.module.ts
+│   └── prisma.service.ts
+│
+├── menus/
+│   ├── dto/
+│   │   ├── create-menu.dto.ts
+│   │   └── update-menu.dto.ts
+│   │
+│   ├── entities/
+│   │   └── menu.entity.ts
+│   │
+│   ├── menus.controller.ts
+│   ├── menus.service.ts
+│   └── menus.module.ts
+│
+├── common/
+│   ├── filters/
+│   ├── interceptors/
+│   └── pipes/
+│
+└── config/
+    └── configuration.ts
+
+
+
