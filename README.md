@@ -66,11 +66,10 @@ Jika ingin jalankan tanpa docker:
 
 ## Screenshots
 ### Desktop
-![desktop](screenshots/desktop.png)
+<img src="screenshots/desktop.png" width="50%">
 ### Mobile 1
-![mobile](screenshots/mobile-1.png)
-### Mobile 2
-![mobile](screenshots/mobile-2.png)
+<img src="screenshots/mobile-1.png" width="50%">
+<img src="screenshots/mobile-2.png" width="50%">
 
 ## Technologies
 - Backend: NestJS, Prisma, PostgreSQL
