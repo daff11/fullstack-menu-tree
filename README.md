@@ -68,8 +68,8 @@ Jika ingin jalankan tanpa docker:
 - Desktop
   ![desktop](screenshots/desktop.png)
 - Mobile
-  ![mobile-1](screenshots/mobile-1.png)
-  ![mobile-2](screenshots/mobile-2.png)
+   - ![mobile-1](screenshots/mobile-1.png)
+   - ![mobile-2](screenshots/mobile-2.png)
 
 ## Technologies
 - Backend: NestJS, Prisma, PostgreSQL
