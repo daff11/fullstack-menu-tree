@@ -65,6 +65,30 @@ Jika ingin jalankan tanpa docker:
 - Akses Frontend: http://localhost:5173
 - Swagger Backend: http://localhost:3000/api-docs
 
+## Important Note
+Saat pertama kali menjalankan aplikasi, data menu tree belum tersedia.
+
+Frontend tidak menyediakan fitur untuk membuat root menu secara langsung.  
+Oleh karena itu, root menu harus dibuat terlebih dahulu melalui Swagger (backend API).
+
+### Steps:
+1. Buka Swagger:
+   http://localhost:3000/api-docs
+
+2. Gunakan endpoint:
+   POST /menus
+
+3. Contoh request body untuk membuat root menu:
+```json
+{
+  "name": "System Management",
+  "parentId": null
+}
+```
+
+4. Setelah itu refresh halaman
+http://localhost:5173
+
 ## Screenshots
 ### Desktop
 <img src="screenshots/desktop.png" width="30%">
