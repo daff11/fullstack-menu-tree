@@ -31,7 +31,6 @@ Frontend: Vite + React
 
 ## Setup
 ### Clone Repo
-
 ```bash
 git clone https://github.com/daff11/fullstack-menu-tree.git
 cd fullstack-menu-tree
@@ -41,7 +40,9 @@ cd fullstack-menu-tree
 Sudah include di git. Bisa dicek di folder backend/.env dan frontend/.env
 
 ### Docker Setup
+```bash
 docker-compose up --build
+```
 
 ### Frontend dan Backend Manual
 Jika ingin jalankan tanpa docker:
