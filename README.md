@@ -15,6 +15,7 @@ Frontend: Vite + React
   - [Docker Setup](#docker-setup)
   - [Frontend & Backend Manual](#frontend--backend-manual)
 - [Usage](#usage)
+- [Important Note](#important-note)
 - [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [License](#license)
